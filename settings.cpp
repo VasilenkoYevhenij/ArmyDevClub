@@ -1,0 +1,47 @@
+#include <iostream>
+
+enum HP {
+    HP_SOLDIER = 120,
+    HP_ROGUE = 90,
+    HP_VAMPIRE = 91,
+    HP_WEREWOLF = 121,
+    HP_WOLF = 145,
+    HP_BERSERKER = 110,
+    HP_WIZARD = 90,
+    HP_HEALER = 80,
+    HP_PRIEST = 100,
+    HP_DEMON = 100,
+    HP_NECROMANCER = 105,
+    HP_WARLOCK = 90
+};
+
+enum DMG {
+    DMG_WOLF = 30,
+    DMG_WEREWOLF = 25,
+    DMG_SOLDIER = 25,
+    DMG_ROGUE = 29,
+    DMG_VAMPIRE = 27,
+    DMG_BERSERKER = 33,
+    DMG_WIZARD = 15,
+    DMG_HEALER = 8,
+    DMG_PRIEST = 17,
+    DMG_DEMON = 20,
+    DMG_NECROMANCER = 15,
+    DMG_WARLOCK = 15
+
+};
+
+enum MP {
+	MP_WIZARD = 150,
+	MP_HEALER = 200,
+	MP_PRIEST = 150,
+	MP_NECROMANCER = 120,
+	MP_WARLOCK = 150
+    
+};
+
+enum ResistCoef {
+	RC_BERSERKER = 0,
+	RC_WOLF = 2,
+	RC_DEFFAULT = 1
+};
